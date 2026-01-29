@@ -1,0 +1,115 @@
+
+body{
+  background:#EEF2F6;
+  font-family:"Segoe UI", sans-serif;
+}
+
+/* Main Card */
+.signup-card{
+  background:#fff;
+  border-radius:28px; 
+  overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,0.25);
+  max-width:1100px;
+  margin:60px auto;
+}
+
+/* LEFT */
+.form-side{
+  padding:60px;
+}
+
+.logo{
+  font-size:26px;
+  font-weight:700;
+}
+
+.form-side h2{
+  margin-top:25px;
+  font-weight:600;
+}
+
+/* Input icon */
+.input-group{
+  margin-bottom:18px;
+}
+
+.form-control{
+  border-radius:30px;
+  padding:14px 18px;
+}
+
+.input-group-text{
+  background:transparent;
+  border-radius:30px;
+  border-left:none;
+}
+
+.form-control:focus{
+  box-shadow:none;
+  border-color:#5b677a ;
+}
+
+/* Button */
+.btn-signup{
+  background:#5b677a ;
+  color:#fff;
+  border:none;
+  padding:14px;
+  border-radius:30px;
+  font-weight:600;
+  width:100%;
+}
+
+.btn-signup:hover{
+  background:#5b677a ;
+}
+
+/* RIGHT IMAGE */
+.image-side{
+  position:relative;
+}
+
+.image-side img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+
+/* SLIDE ICON STYLE (DESIGN ONLY) */
+.slide-icon{
+  position:absolute;
+  top:22px;
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:#EEF2F6;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:20px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  cursor:default;
+}
+
+.slide-left{ 
+    left:22px;
+ }
+.slide-right{
+     right:22px;
+ }
+
+.slide-icon:hover{
+  background:#E2E8F0;       
+}
+
+.signin-link{
+  color:#3A3A3A;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.signin-link:hover{
+  text-decoration:underline;
+}
